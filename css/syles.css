@@ -8,14 +8,39 @@ html {
 
 body{
     font-size: 1.6rem; /** 1 rem = 10 px **/
-    background-color: bisque;
-    margin: 80px;
-    border-color: darkblue;
 }
 
-.title{
-    color: red;
-    font-size: 50px;
-    text-decoration: underline;
+img{
+    max-width: 100%;
 }
 
+.container{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    color: #3DBDDB;
+}
+
+.navbar a {
+    flex-basis: 5%;
+
+}
+
+.nav-items{
+    display: flex;
+
+}
+
+.nav-items li{
+    margin-left: 10rem;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #2000DB;
+}
